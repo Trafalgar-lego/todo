@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f5f5;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  color: #EAD7D7;
+  text-align: center;
+  font-size: 100px;
+  font-weight: 100;
+  margin: 2px 0px;
+}
+
+.new__todo {
+  max-width: 550px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2), 0px 25px 50px 0px rgba(0, 0, 0, 0.1);
+}
+
+.new__todo .new__todo-input {
+  position: relative;
+  max-width: 550px;
+  width: 100%;
+  font-size: 24px;
+  border: none;
+  outline: none;
+  padding: 16px 16px 16px 60px;
+  line-height: 33px;
+
+}
+
+.new__todo input[type="text"]::-webkit-input-placeholder {
+  color: #e6e6e6;
+}
+.todo__list {
+  /*display: none;*/
+}
