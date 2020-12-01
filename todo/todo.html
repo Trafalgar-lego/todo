@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>todos</title>
+  <link href="css/todo.css" rel="stylesheet">
+</head>
+<body>
+<header class="header">
+  <div class="header__title"><h1>todos</h1></div>
+</header>
+<section class="new__todo">
+  <form>
+    <input class="new__todo-input" id="new__todo-input" type="text" placeholder="What needs to be done?" autofocus>
+  </form>
+</section>
+<section class="todo" id="todo">
+  <ul class="todo__list" id="todo__list">
+
+  </ul>
+</section>
+<footer class="footer">
+  <span class="todo__count" id="count">
+    <strong></strong>
+    " item left"
+  </span>
+  <ul class="filters">
+    <li><a href="#" id="All" class="Selected">All</a></li>
+    <li><a href="#" id="Active" class="Active">Active</a></li>
+    <li><a href="#" id="Completed" class="Completed">Completed</a></li>
+  </ul>
+  <button class="clear__completed">
+    "Clear completed ["
+    <span class="completed__count" id="completed__count"></span>
+    "]"
+  </button>
+</footer>
+
+<script src="js/todo.js"></script>
+</body>
+</html>
